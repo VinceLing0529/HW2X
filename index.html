@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Pressure Predictor</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Blood Pressure Predictor</h1>
+    <h2>Fill out the form to get your blood pressure estimate</h2>
+    <form method="POST">
+
+    <p>Age*<input type="number" name="age" id="" required placeholder="Enter age in years"></p>
+    <p>Weight*<input type="number" name="weight" required placeholder="Enter weight in kg"> </p>
+    <input type="submit" value="calculate">
+    <p>{{ bp }}</p>
+</form>
+
+</body>
+</html>
